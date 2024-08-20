@@ -106,9 +106,6 @@ void ProcessListUI::DrawProcessEntry(const std::shared_ptr<ProcessListEntry>& Pr
             if (ImGui::Button("View process PTs"))
                 Globals::g_InspectedPTs.push_back(std::make_unique<PTViewerUI>(Process->ProcessId, Process->ProcessName, Process->CR3));
 
-            if (ImGui::Button("View process VADs"))
-                MessageBoxA(NULL, "Not implemented yet!", "", MB_ICONWARNING);
-
             ImGui::EndPopup();
         }
     }

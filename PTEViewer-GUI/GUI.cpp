@@ -100,11 +100,11 @@ void GUI::HandleResize()
 
 bool GUI::SetupWindow()
 {
-    m_WC = { sizeof(m_WC), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(nullptr), nullptr, nullptr, nullptr, nullptr, L"ImGui Example", nullptr };
+    m_WC = { sizeof(m_WC), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(nullptr), nullptr, nullptr, nullptr, nullptr, L"PTEViewer-WndClss", nullptr };
     if (::RegisterClassExW(&m_WC) == INVALID_ATOM)
         return false;
 
-    m_hWnd = ::CreateWindowW(m_WC.lpszClassName, L"Dear ImGui DirectX11 Example", WS_OVERLAPPEDWINDOW, 100, 100, 1280, 800, nullptr, nullptr, m_WC.hInstance, nullptr);
+    m_hWnd = ::CreateWindowW(m_WC.lpszClassName, L"PTEViewer-GUI", WS_OVERLAPPEDWINDOW, 100, 100, 1280, 800, nullptr, nullptr, m_WC.hInstance, nullptr);
     if (!m_hWnd)
         return false;
 
