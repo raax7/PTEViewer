@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Libs\ImGui\imgui.cpp">
+      <Filter>Libs\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\ImGui\imgui_demo.cpp">
+      <Filter>Libs\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\ImGui\imgui_draw.cpp">
+      <Filter>Libs\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Libs\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\ImGui\imgui_impl_win32.cpp">
+      <Filter>Libs\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\ImGui\imgui_tables.cpp">
+      <Filter>Libs\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libs\ImGui\imgui_widgets.cpp">
+      <Filter>Libs\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="Driver.cpp" />
+    <ClCompile Include="PollManager.cpp">
+      <Filter>PollSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="PollEntry.cpp">
+      <Filter>PollSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="ProcessManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessListUI.cpp">
+      <Filter>UI Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="PTViewerUI.cpp">
+      <Filter>UI Windows\PTViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTableCache.cpp">
+      <Filter>UI Windows\PTViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="PageUtils.cpp">
+      <Filter>UI Windows\PTViewer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libs\ImGui\imstb_truetype.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\ImGui\imgui.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\ImGui\imgui_impl_dx11.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\ImGui\imgui_impl_win32.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\ImGui\imgui_internal.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\ImGui\imstb_rectpack.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\ImGui\imstb_textedit.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libs\ImGui\imconfig.h">
+      <Filter>Libs\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="PollManager.h">
+      <Filter>PollSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="PollEntry.h">
+      <Filter>PollSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="ProcessManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessListUI.h">
+      <Filter>UI Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="PTViewerUI.h">
+      <Filter>UI Windows\PTViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="PageTableCache.h">
+      <Filter>UI Windows\PTViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedTypes.h">
+      <Filter>UI Windows\PTViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="PageUtils.h">
+      <Filter>UI Windows\PTViewer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Libs">
+      <UniqueIdentifier>{0d501ecc-d8a9-4e94-af20-ee0ea476fbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libs\ImGui">
+      <UniqueIdentifier>{2349b19e-4fae-4650-ae5c-713e7d72afee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PollSystem">
+      <UniqueIdentifier>{74d96d03-02b1-49a1-b1a4-25917f4e382d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{251cc4b7-51b4-4394-8c96-3731771d9b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Windows">
+      <UniqueIdentifier>{5ed09f4f-4930-4c67-9457-cc1de36b3ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Windows\PTViewer">
+      <UniqueIdentifier>{2cd65407-0564-4cc6-a6cb-d0ad05fd6ab2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GUI.h" />
+  </ItemGroup>
+</Project>
